@@ -1,2 +1,2 @@
 # loanrepayment
- loanr epayment application
+ loan repayment application
