@@ -12,9 +12,9 @@ except:
     raise ValueError("You have entered incorrect login details, please check and retry!")
 
 server = 'tcp:bistudiosqlserver.database.windows.net'
-database = 'pythonsdb'
-username = 'bistudioadmin'
-password = 'Pyramid7!'
+database = 'Securesdb'
+username = 'username'
+password = 'pwd'
 cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+
                       ';PWD='+password)
 cursor = cnxn.cursor()
